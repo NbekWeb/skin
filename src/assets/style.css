@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-green-400: #56ca81;
+  --color-black-800: #171717; /* endi bg-black-800 ishlaydi */
+  --color-black-700: #0f0f0f; /* endi bg-black-700 ishlaydi */
+  --color-black-600: #292929; /* endi bg-black-700 ishlaydi */
+  --color-white-900: #f9f9f9; /* endi bg-black-700 ishlaydi */
+  --color-gray-400: #808080; /* endi bg-black-700 ishlaydi */
+  --color-gray-500: #4F4F4F; /* endi bg-black-700 ishlaydi */
+  --color-origin-400: #ff9736; /* endi bg-black-700 ishlaydi */
+  --color-red-400: #da5752; /* endi bg-black-700 ishlaydi */
+
+  --font-montserrat-300: 'montserrat-300', sans-serif;
+  --font-montserrat-400: 'montserrat-400', sans-serif;
+  --font-montserrat-500: 'montserrat-500', sans-serif;
+  --font-montserrat-600: 'montserrat-600', sans-serif;
+  --font-montserrat-700: 'montserrat-700', sans-serif;
+
+  --breakpoint-xs: 30rem;
+}
+@layer base {
+  @font-face {
+    font-family: 'montserrat-700';
+    src: url('../assets/font/Montserrat-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'montserrat-600';
+    src: url('../assets/font/Montserrat-SemiBold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'montserrat-500';
+    src: url('../assets/font/Montserrat-Medium.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'montserrat-400';
+    src: url('../assets/font/Montserrat-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'montserrat-300';
+    src: url('../assets/font/Montserrat-Light.ttf') format('truetype');
+  }
+}
